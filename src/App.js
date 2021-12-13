@@ -19,10 +19,10 @@ function App() {
           Traductor Mimimi
         </p>
         <div className="App-container">
-          <div style={{ height: '50%', wordBreak: 'break-word' }}>
+          <div style={{ height: '50%', wordBreak: 'break-word', width: '90%' }}>
             <p>{text}</p>
           </div>
-          <TextArea onChange={onChange} placeholder="Escribe algo!" style={{ borderRadius: 8, fontSize: '1.2rem' }} rows={6} />
+          <TextArea onChange={onChange} placeholder="Escribe algo!" style={{ borderRadius: 8, fontSize: '1.2rem' }} rows={9} />
         </div>
       </div>
       <footer className="App-footer">
